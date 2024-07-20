@@ -1,0 +1,300 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13771560600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.browseropen()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook;to-validate-invalid-username-and-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 588796200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should type invalid \"dhruv@123\" and invalid \"2345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dhruv@123\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2345\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefinition.user_should_type_invalid_and_invalid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46533300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to get current url",
+            "match": {
+              "location": "stepdefinition.user_have_to_get_current_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2504759100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click login button",
+            "match": {
+              "location": "stepdefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4194713000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate user should navigate to incorrect credential page",
+            "match": {
+              "location": "stepdefinition.validate_user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8293881700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.browseropen()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook;to-validate-invalid-username-and-invalid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1062111100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should type invalid \"Shankar@123\" and invalid \"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shankar@123\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepdefinition.user_should_type_invalid_and_invalid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139752000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to get current url",
+            "match": {
+              "location": "stepdefinition.user_have_to_get_current_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2441944600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click login button",
+            "match": {
+              "location": "stepdefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18500263900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate user should navigate to incorrect credential page",
+            "match": {
+              "location": "stepdefinition.validate_user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook",
+    "keyword": "Feature",
+    "uri": "C:/Users/admin/eclipse-workspace/cucumberface/src/test/resources/Feature/face.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17829585200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.browseropen()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To validate the valid email for forgotten password",
+        "description": "",
+        "id": "to-validate-the-forgotten-password-in-facebook-application;to-validate-the-valid-email-for-forgotten-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3243007300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User have to click the forgotten password",
+            "match": {
+              "location": "stepforgotten.user_have_to_click_the_forgotten_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 574503500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User have to Enter valid email",
+            "match": {
+              "location": "stepforgotten.user_have_to_Enter_valid_email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "variety1",
+                  "variety2"
+                ]
+              },
+              {
+                "cells": [
+                  "fruits",
+                  "apple",
+                  "Mango"
+                ]
+              },
+              {
+                "cells": [
+                  "flower",
+                  "jasmine",
+                  "lilly"
+                ]
+              },
+              {
+                "cells": [
+                  "vegetables",
+                  "carrot",
+                  "beetroot"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 611838300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User have to click search button",
+            "match": {
+              "location": "stepforgotten.user_have_to_click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@morning"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Forgotten password in facebook application",
+    "description": "",
+    "id": "to-validate-the-forgotten-password-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/admin/eclipse-workspace/cucumberface/src/test/resources/Feature/forgotton.feature",
+    "tags": []
+  }
+]
